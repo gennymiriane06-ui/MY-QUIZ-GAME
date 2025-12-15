@@ -1,6 +1,5 @@
 # TERMINAL QUIZ GAME
 
-[![License: MIT](img.shields.io)](opensource.org) 
  "Quiz Master Pro is a modern, interactive trivia game built with [Language/Framework] that tests your knowledge on various topics!"
 
 ## Table of Contents
@@ -29,17 +28,6 @@ Include screenshots or an animated GIF of your game in action to give users a qu
 
 ![Screenshot of the game interface](link_to_your_image.png)
 
-## Getting Started
-
-Instructions on how to get a local copy of the project up and running.
-
-### Prerequisites
-
-List any software, libraries, or tools required to run the game locally (e.g., Node.js, Python 3.x, a specific browser version).
-
-*   [Software Name](link_to_software_download) (Version X.X or higher)
-*   [Library Name](link_to_library_docs)
-
 ### Installation
 
 A step-by-step guide to install your project.
@@ -58,8 +46,6 @@ A step-by-step guide to install your project.
     ```
 
 ## Usage
-
-Instructions and examples for how to run the game after installation.
 
 To start the game, run the following command in your terminal:
 
