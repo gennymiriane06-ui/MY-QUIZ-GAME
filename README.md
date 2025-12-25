@@ -2,19 +2,6 @@
 
  "Quiz Master Pro is a modern, interactive trivia game built with [Language/Framework] that tests your knowledge on various topics!"
 
-## Table of Contents
-
-* [Features](#features)
-* [Visuals](#visuals)
-* [Getting Started](#getting-started)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Technologies Used](#tech-stack)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-
 ## Features
 
 * Multiple-choice questions: Players select from several options for each question.
@@ -30,15 +17,15 @@ Include screenshots or an animated GIF of your game in action to give users a qu
 
 A step-by-step guide to install your project.
 
-1.  Clone the repository:
+1. Clone the repository:
     ```bash
     git clone github.com
     ```
-2.  Navigate to the project directory:
+2. Navigate to the project directory:
     ```bash
     cd your-repo-name
     ```
-3.  Install dependencies (example using npm, adjust for your tech stack):
+3. Install dependencies (example using npm, adjust for your tech stack):
     ```bash
     npm install
     ```
