@@ -28,7 +28,7 @@ for line in "${QUESTIONS[@]}"; do
   echo
 
   read -rp "Your answer (A/B/C/D): " REPLY
-  REPLY=$(echo "$REPLY" | tr 'a-z' 'A-Z')
+  REPLY=$(echo "$REPLY" | tr '[lower]' '[upper]')
 
   if [[ "$REPLY" == "$ANS" ]]; then
     echo "Correct!"
