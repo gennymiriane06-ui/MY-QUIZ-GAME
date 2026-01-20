@@ -41,4 +41,3 @@ for line in "${QUESTIONS[@]}"; do
 done
 
 echo "You got $CORRECT out of $TOTAL correct!"
-it a
