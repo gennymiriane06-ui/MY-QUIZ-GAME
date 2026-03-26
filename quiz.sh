@@ -225,11 +225,11 @@ run_game() {
     divider
 
     local grade=""
-    if   (( score == 100 )); then grade="${GREEN}Perfect! 🏆${RESET}"
-    elif (( score >= 80  )); then grade="${GREEN}Great job! 🌟${RESET}"
-    elif (( score >= 60  )); then grade="${YELLOW}Good effort! 👍${RESET}"
-    elif (( score >= 40  )); then grade="${YELLOW}Keep practising! 📚${RESET}"
-    else                         grade="${RED}Better luck next time! 💪${RESET}"
+    if   (( score == 100 )); then grade="${GREEN}Perfect! ${RESET}"
+    elif (( score >= 80  )); then grade="${GREEN}Great job! ${RESET}"
+    elif (( score >= 60  )); then grade="${YELLOW}Good effort! ${RESET}"
+    elif (( score >= 40  )); then grade="${YELLOW}Keep practising! ${RESET}"
+    else                         grade="${RED}Better luck next time! ${RESET}"
     fi
 
     echo -e "  Final score : ${BOLD}${YELLOW}${score}%${RESET}   —  ${grade}"
