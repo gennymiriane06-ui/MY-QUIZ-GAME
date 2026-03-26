@@ -1,53 +1,40 @@
-# TERMINAL QUIZ GAME
+# Terminal-Quiz-Game
+This project shows how the command -line text game will load questions from a file, present them to the user in random order, accept player answers, track scoring and streaks, and save high scores using bash.
+## Description
+structured data (questions) from a file
+Parse lines into fields
+Use IFS (Internal Field Separator)
+Generate random numbers
+Validate user input
+Use functions to organize code
+Handle string comparison
+Track and update scores
+Store persistent data in files
+-About
+This game implements a simple quiz game whereby your score increases based on the number of questions you get right. The game displays the user current score, High score,the username on the game and percentage.
+you must answer all questions to get your final score and percentage.
+- Play Game
+Simply play the games by using your mouse pad. enter your name,choose your option(a,b,c or d) to select the correct
+answer for the quiz
 
- "Quiz Master Pro is a modern, interactive trivia game built with [Language/Framework] that tests your knowledge on various topics!"
-
-## Table of Contents
-
-*   [Features](#features)
-*   [Visuals](#visuals)
-*   [Getting Started](#getting-started)
-    *   [Prerequisites](#prerequisites)
-    *   [Installation](#installation)
-*   [Usage](#usage)
-*   [Technologies Used](#tech-stack)
-*   [Contributing](#contributing)
-*   [License](#license)
-*   [Contact](#contact)
-
-## Features
-
-*   **Multiple-choice questions:** Players select from several options for each question.
-*   **Real-time scoring:** The game tracks and displays the player's score throughout the quiz.
-*   **Immediate feedback:** Users receive instant notification on whether their answer is correct or not.
-*   **Responsive design:** The game works well on different devices (web, desktop, or mobile, depending on your project).
-
-## Visuals
-
-Include screenshots or an animated GIF of your game in action to give users a quick idea of the interface and gameplay.
-
-![Screenshot of the game interface](link_to_your_image.png)
-
-### Installation
-
-A step-by-step guide to install your project.
-
-1.  Clone the repository:
-    ```bash
-    git clone github.com
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd your-repo-name
-    ```
-3.  Install dependencies (example using npm, adjust for your tech stack):
-    ```bash
-    npm install
-    ```
-
-## Usage
-
-To start the game, run the following command in your terminal:
-
+### Installation Requirments
+-download the file-cd to the directory where the program is found
+-run the program
 ```bash
-npm start
+To get a copy up and running follow these simple steps.
+clone project
+Clone this repository using your terminal or command line with. "https://github.com/gennymiriane/Terminal-Quiz-Game.git"
+Change to the project directory by entering: cd Terminal-Quiz-Game in the terminal.
+```
+- Command-line steps
+ git clone  "https://github.com/gennymiriane/Terminal-Quiz-Game/pull/1"
+ `cd Terminal-Quiz-Game`
+`git switch feature/game(to switch to the feature branch)
+-Test
+run "./quiz.sh" to run quiz
+[wrong!/correct!]
+
+### Contact/Credit
+Created bY [gennymiriane] (git@github.com:)
+For support contact gennymiriane06@gmail.com
+Feel free to to reach out with questions.
